@@ -11,7 +11,7 @@
         <meta property="fb:app_id" content="157619597969056">
         <meta property="og:title" content="{{ page.title }}">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.236atc.co.uk/">
+        <meta property="og:url" content="{{ site.url }}">
         <meta property="og:description" content="{{ page.description }}">
         <meta property="og:site_name" content="236 Bollington Squadron Air Cadets">
 
@@ -61,16 +61,10 @@
         {
             "@context" : "http://schema.org",
             "@type" : "LocalBusiness",
-            "name" : "236 Bollington Squadron Air Cadets",
-            "url" : "https://www.236atc.co.uk",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Bollington",
-                "postalCode": "SK10 5RD",
-                "streetAddress": "The Slaughter House, Shrigley Road"
-            },
-            "email": "staff@236atc.co.uk",
-            "logo": "https://www.236atc.co.uk/assets/images/header.jpg",
+            "name" : "{{ site.title }}",
+            "url" : "{{ site.url }}",
+            "email": "{{ site.email }}",
+            "logo": "{{ site.url }}/assets/images/header.jpg",
             "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
@@ -81,8 +75,9 @@
                 "closes": "21:00"
             },
             "sameAs" : [
-                "https://www.facebook.com/236.Squadron.ATC",
-                "https://twitter.com/236atc"
+                "https://www.facebook.com/{{ site.facebook }}",
+                "https://twitter.com/{{ site.twitter }}",
+                "https://instagram.com/{{ site.instagram }}"
             ],
             "memberOf": {
                 "@type": "Organization",
@@ -94,7 +89,7 @@
                 </script>
 </head>
 
-    <body class="sqn-website sqn-236 75b4c">
+    <body class="sqn-website 75b4c">
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
         <header class="header">
@@ -107,11 +102,16 @@
                     </div>
 
                     <div class="col-xs-6">
-                        <h1 class="sqn-logo">
-                            <a href="/">
-                                236 Bollington Squadron
-                            </a>
-                        </h1>
+                        <a class="sqn-logo" href="/">
+                            <div class="sqn-number">
+                                {{ site.sqn_number }}
+                            </div>
+
+                            <div class="sqn-name">
+                                <strong>{{ site.sqn_name }}</strong>
+                                Squadron
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
 
                         <div class="col-sm-4 col-md-12 col-lg-12">
                             <h2>Want to know more?</h2>
-                            <p>Find out more <a href="/who-we-are">about 236 squadron</a>,
+                            <p>Find out more <a href="/who-we-are">about {{ site.sqn_number }} squadron</a>,
                                 about <a href="/join">being a Cadet</a>, an <a href="/adult-volunteer">Adult Volunteer</a>
                                 or <a href="/information-for-parents">information for parents</a>.</p>
                         </div>

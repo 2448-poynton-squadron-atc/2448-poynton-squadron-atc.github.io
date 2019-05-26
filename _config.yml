@@ -20,6 +20,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   236 Bollington Squadron parades every Monday and Thursday nights at 7pm.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.236atc.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+sqn_number: 236
+sqn_name: Bollington
+facebook: 236atc
+instagram: 236atc
 
 # Build settings
 markdown: kramdown

@@ -8,13 +8,13 @@
   link: /join
 
 - name: Photo Gallery
-  link: https://www.facebook.com/pg/236ATC/photos/?tab=albums
+  link: https://www.facebook.com/pg/{{ site.facebook }}/photos/?tab=albums
   target: _blank
 
 - name: Squadron News
-  link: https://www.facebook.com/pg/236ATC/posts/
+  link: https://www.facebook.com/pg/{{ site.facebook }}/posts/
   target: _blank
 
 - name: Event Calendar
-  link: https://www.facebook.com/pg/236ATC/events/
+  link: https://www.facebook.com/pg/{{ site.facebook }}/events/
   target: _blank

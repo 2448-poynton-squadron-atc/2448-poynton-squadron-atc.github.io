@@ -9,6 +9,34 @@
     margin: 35px 0;
   }
 
+  a.sqn-logo {
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    text-align: right;
+    margin-top: 45px;
+
+    div.sqn-number {
+      display: inline-block;
+      font-size: 2em;
+      vertical-align: top;
+      padding: 8px 10px 5px 5px;
+    }
+
+    div.sqn-name {
+      display: inline-block;
+      border-left: 1px solid $colorSecondary;
+      padding: 5px 5px 5px 10px;
+      font-size: 1.2em;
+      text-transform: uppercase;
+
+      strong {
+        display: block;
+        margin-bottom: -5px;
+      }
+    }
+  }
+
   h1.sqn-logo {
     margin: 0;
 
