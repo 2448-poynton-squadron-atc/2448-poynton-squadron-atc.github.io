@@ -3,16 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: basic
-title: 236 Bollington Squadron Air Cadets
+title: 2448 Poynton Squadron Air Cadets
 image: /assets/images/header.jpg
 description: >-
   If you're a fan of aviation, action and adventure, love sports and getting to know people, then you're in the right place!
-  236 Bollington Squadron Air Cadets parades every Monday and Thursday nights at 7pm.
+  2448 Poynton Squadron Air Cadets parades every Monday and Thursday nights at 7pm.
 ---
 
 ## If you're a fan of aviation, action and adventure, love sports and getting to know people, then you're in the right place!
 
-236 Bollington Squadron parades every Monday and Thursday nights at 7pm at The Slaughter House, Shrigley Road, Bollington.
+2448 Poynton Squadron parades every Monday and Thursday nights at 7pm at The Slaughter House, Shrigley Road, Bollington.
 
 If you are interested in joining why not come along and meet the cadets and staff? We can guarantee a warm welcome to all new cadets. Every year nearly 60,000 air cadets and volunteer staff take part in exciting events all over the country. And with over 1,000 squadrons across the UK, you could be one of them.
 
