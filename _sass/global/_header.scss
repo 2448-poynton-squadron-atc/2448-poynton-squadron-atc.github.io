@@ -1,0 +1,64 @@
+.header {
+  a.aco-logo {
+    background: url('/assets/images/aco-logo.png') no-repeat top left;
+    background-size: 100%;
+    display: block;
+    text-indent: -5000px;
+    width: 450px;
+    height: 85px;
+    margin: 35px 0;
+  }
+
+  h1.sqn-logo {
+    margin: 0;
+
+    a {
+      background: {
+        color: transparent;
+        repeat: no-repeat;
+        position: top left;
+        size: 100%;
+      }
+
+      display: block;
+      float: right;
+      text-indent: -5000px;
+      width: 243px;
+      height: 56px;
+      margin-top: 56px;
+    }
+  }
+}
+
+
+ul.nav {
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0 0 40px 0;
+  float: none;
+  display: block;
+
+  li {
+    a {
+      border-bottom: 2px solid $colorPrimary;
+      display: block;
+      font-weight: 600;
+      margin-left: -10px;
+      margin-right: -10px;
+      padding: 10px;
+      text-decoration: none;
+
+      &.active {
+        border-bottom: 5px solid $colorSecondary;
+      }
+
+      &:hover {
+        color: $colorPrimary;
+        border-bottom-color: $colorSecondary;
+      }
+    }
+  }
+
+
+}

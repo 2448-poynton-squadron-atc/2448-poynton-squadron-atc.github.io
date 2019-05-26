@@ -1,0 +1,282 @@
+body.sqn-website {
+  background: #fff;
+
+  font: {
+    family: 'myriad-pro', sans-serif;
+    weight: 400;
+    size: 18px;
+  }
+
+  &::before {
+    background: $colorPrimary;
+    content: "";
+    display: block;
+    height: 700px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  a {
+    color: $colorPrimary;
+    text-decoration: underline;
+
+    &:hover {
+      color: $colorSecondary;
+    }
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .main-container {
+    background: #fff;
+    margin-bottom: 30px;
+
+    .content {
+      margin-bottom: 30px;
+
+      h1 {
+        color: $colorPrimary;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 0 0 25px 0;
+      }
+
+      h2 {
+        color: $colorSecondary;
+        font-size: 20px;
+        margin: 20px 0 10px 0;
+      }
+
+      h3 {
+        color: $colorPrimary;
+        font-size: 20px;
+        margin: 20px 0 10px 0;
+      }
+
+        h1 + h3 {
+          margin: -15px 0 30px 0;
+        }
+
+      .page-image {
+        margin-bottom: 10px;
+      }
+
+      a.fancybox {
+        display: block;
+        margin-bottom: 30px;
+        padding: 3px;
+        border: 1px solid #ccc;
+      }
+    }
+  }
+
+  .event {
+    margin-bottom: 15px;
+
+    &.full {
+      padding-bottom: 15px;
+      padding-top: 15px;
+      margin-bottom: 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    &.squadron {
+      padding-bottom: 30px;
+      padding-top: 30px;
+      background: lighten($colorPrimary, 80%);
+      border-bottom-color: lighten($colorPrimary, 50%);
+    }
+
+    &.events {
+      padding-bottom: 30px;
+      padding-top: 30px;
+      background: lighten($colorSecondary, 55%);
+      border-bottom-color: lighten($colorSecondary, 40%);
+
+    }
+
+    .date {
+      color: $colorSecondary;
+      margin: 0;
+      text-align: center;
+
+      span.month {
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+      }
+
+      span.day {
+        display: block;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+      }
+    }
+
+    .detail {
+      h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 17px;
+        font-weight: 700;
+        margin: 0 0 8px 0;
+
+        span {
+          font-weight: 400;
+        }
+      }
+
+      p {
+        font-size: 15px;
+        margin: 0;
+      }
+    }
+  }
+
+
+  .breadcrumb {
+    margin-top: 100px;
+  }
+
+  .footer-contact {
+    background: lighten($colorPrimary, 75%);
+    border-top: 1px solid lighten($colorPrimary, 70%);
+    padding: 50px 0;
+
+    h2 {
+      color: $colorPrimary;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    p {
+      color: $colorText;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    form {
+      margin-top: 40px;
+
+      label {
+        color: $colorPrimary;
+      }
+
+      input {
+        line-height: 50px;
+        padding: 0 20px;
+
+        &.invalid {
+          border: 1px solid red;
+        }
+
+        &.valid {
+          border: 1px solid green;
+        }
+
+        &:-webkit-autofill {
+          -webkit-box-shadow:0 0 0 50px white inset;
+        }
+      }
+
+      textarea {
+        &.invalid {
+          border: 1px solid red;
+        }
+
+        &.valid {
+          border: 1px solid green;
+        }
+      }
+
+      button {
+        background: $colorPrimary;
+        color: #fff;
+        line-height: 30px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+
+
+  .footer {
+    background: $colorPrimary;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 50px 0;
+
+    a {
+      color: #fff;
+    }
+
+    h4, p.copyright {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0 0 15px 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0 0 10px 0;
+        padding: 0;
+
+        a {
+        }
+      }
+    }
+
+    .raf-copyright {
+      font-size: 0.8em;
+    }
+  }
+
+  .author-photo {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 2px;
+    width: 75px;
+    height: 75px;
+  }
+}
+
+img.pull-right {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+img.pull-left {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+img.staff {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+body.sqn-website .main-container .content h2 + h3 {
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+

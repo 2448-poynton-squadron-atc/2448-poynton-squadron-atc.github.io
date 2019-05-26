@@ -1,0 +1,36 @@
+
+.week {
+  margin-bottom: 40px;
+
+  tr.header {
+    background: lighten($colorPrimary, 75%);
+  }
+
+  table.table {
+    tbody {
+      tr {
+        td {
+          padding: 20px 0;
+
+          p {
+            font-size: 0.8em;
+          }
+
+          ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+              &:before { content: "- "; }
+
+              font-size: 0.8em;
+              margin: 0 0 5px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

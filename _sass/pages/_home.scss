@@ -1,0 +1,84 @@
+.homepage-header {
+  .image-box {
+    background: {
+      image: url('/assets/images/header-image.jpg');
+      repeat: no-repeat;
+      position: top left;
+      size: auto 100%;
+    }
+
+    height: 400px;
+  }
+
+  .info-box {
+    background: $colorSecondary;
+    height: 400px;
+
+    .info-box-inner {
+      color: #fff;
+      padding: 30px 15px;
+
+      h2 {
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 700;
+        margin: 30px 0 10px 0;
+      }
+
+      h3 {
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 300;
+        margin: 0 0 5px 0;
+        text-transform: uppercase;
+      }
+
+      strong {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+        margin: 0 0 7px 0;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 20px;
+
+        a {
+          color: #fff;
+        }
+      }
+
+      a.button {
+        background: #fff;
+        color: $colorPrimary;
+        display: inline-block;
+        font-weight: 600;
+        padding: 10px 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:after {
+          content: ">";
+          color: $colorSecondary;
+          display: inline-block;
+          font-size: 25px;
+          line-height: 18px;
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+}
+
+.homepage-gallery {
+  background: lighten($colorPrimary, 75%);
+  padding: 30px 0;
+
+  img {
+    background: #fff;
+    border: 1px solid $colorPrimary;
+    cursor: zoom-in;
+    padding: 1px;
+  }
+}

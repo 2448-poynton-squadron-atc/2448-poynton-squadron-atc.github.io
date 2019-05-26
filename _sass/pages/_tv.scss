@@ -1,0 +1,211 @@
+html.tv {
+  height: 100%;
+  overflow: hidden;
+}
+
+body.tv {
+  background: #000;
+  border: none;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  max-height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 0;
+
+  font: {
+    family: 'myriad-pro', sans-serif;
+    weight: 400;
+    size: 25px;
+  }
+
+  div.wrapper {
+    background: green;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+
+    div.events {
+      background: $colorPrimary;
+      box-sizing: border-box;
+      flex-basis: 0;
+      flex-grow: 2;
+      order: 1;
+      padding: 50px 50px 100px;
+      position: relative;
+
+      img {
+        height: 60px;
+        vertical-align: bottom;
+        position: absolute;
+        bottom: 25px;
+
+        &.aco {
+          left: 50px;
+        }
+
+        &.sqn {
+          right: 50px;
+        }
+      }
+
+      .event {
+        margin: 0 0 50px 0;
+      }
+
+      h1 {
+        color: #fff;
+        font-size: 100px;
+        margin: 0 0 100px 0;
+      }
+
+      h2 {
+        margin: 0 0 15px 0;
+      }
+
+      p {
+        margin: 0 0 10px;
+      }
+    }
+
+    div.parades {
+      background: $colorSecondary;
+      box-sizing: border-box;
+      flex-basis: 0;
+      flex-grow: 1;
+      order: 2;
+      padding: 50px;
+      position: relative;
+      text-align: right;
+
+      .clock {
+        color: #fff;
+        font-size: 100px;
+
+        .time, .seconds {
+          display: inline;
+          margin: 0;
+        }
+
+        .seconds {
+          font-size: 50px;
+        }
+      }
+
+      canvas {
+        position: absolute;
+        left: 40px;
+        top: 30px;
+      }
+
+      .parade {
+        bottom: 50px;
+        left: auto;
+        right: 50px;
+        position: absolute;
+        width: 90%;
+
+        .next, .following {
+          img.uniform {
+            margin: 15px 0 0 0;
+            max-width: 200px;
+            border: 2px solid darken($colorSecondary, 10%);
+          }
+        }
+
+        .next {
+          margin-bottom: 50px;
+          font-size: 35px;
+
+          h2 {
+            font-size: 50px;
+          }
+        }
+
+        .following {
+          font-size: 20px;
+        }
+
+        h3 {
+          font-size: 30px;
+          margin: 0 0 20px 0;
+        }
+
+        p {
+          margin: 0 0 15px 0;
+        }
+      }
+
+      &.left {
+        order: -1;
+        text-align: left;
+
+        .parade {
+          right: auto;
+          left: 50px;
+        }
+
+        canvas {
+          left: auto;
+          right: 40px;
+        }
+      }
+    }
+
+
+    .subtle {
+      color: lighten($colorSecondary, 40%);
+    }
+
+
+  }
+
+  &.christmas {
+    div.wrapper {
+      background: darkgreen;
+
+      &:before {
+         position: absolute;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         content: "";
+         background: transparent url('/assets/images/snow3.png') repeat top left;
+         background-size: 10%;
+         opacity: 0.5;
+       }
+
+      .events, .parades {
+        background: transparent;
+      }
+
+      .subtle {
+        color: rgba(255,255,255,0.5);
+      }
+
+      div.events {
+        &:after {
+          position: absolute;
+          right: 10px;
+          bottom: 10px;
+          content: "";
+          background: transparent url('/assets/images/candy-cane.png') no-repeat top left;
+          background-size: auto 100%;
+          width: 150px;
+          height: 150px;
+        }
+
+        img.sqn {
+          margin-right: 150px;
+        }
+      }
+    }
+  }
+}

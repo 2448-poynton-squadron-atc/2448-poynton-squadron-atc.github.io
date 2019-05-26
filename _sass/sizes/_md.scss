@@ -1,0 +1,27 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .homepage-header {
+    .image-box {
+      height: 330px;
+    }
+
+    .info-box {
+      height: 330px;
+
+      .info-box-inner {
+        padding: 15px 0;
+
+        h2 {
+          font-size: 24px;
+          margin-top: 20px;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+
+}

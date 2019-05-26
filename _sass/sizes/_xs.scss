@@ -1,0 +1,101 @@
+@media (max-width: 767px) {
+  body {
+    .header {
+      a.aco-logo {
+        margin: 16px 0;
+        height: 28px;
+        width: 150px;
+      }
+
+      h1.sqn-logo a {
+        margin-top: 20px;
+        width: 110px;
+        height: 24px;
+      }
+    }
+
+    .homepage-header {
+      .info-box {
+        height: auto;
+
+        .info-box-inner {
+          padding: 15px 0;
+
+          h2 {
+            font-size: 20px;
+            margin-top: 10px;
+          }
+
+          h3 {
+            margin-top: 10px;
+            font-size: 22px;
+          }
+
+          strong {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 18px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+
+
+    ul.nav {
+      li {
+        a {
+          font-size: 14px;
+          padding: 15px 2px;
+        }
+      }
+    }
+
+
+    .sidebar {
+      .box {
+        .event {
+          .detail {
+            h3 {
+              font-size: 16px;
+            }
+          }
+        }
+
+        &.feature {
+          form {
+            button {
+              font-size: 15px;
+              width: 75px;
+            }
+          }
+        }
+      }
+    }
+
+
+    .main-container {
+      .content {
+        h1 {
+          font-size: 30px;
+          line-height: 30px;
+        }
+
+        img.pull-right, img.pull-left {
+          min-width: 100%;
+          float: none;
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+
+    .footer ul {
+      margin-bottom: 30px;
+    }
+  }
+
+
+}

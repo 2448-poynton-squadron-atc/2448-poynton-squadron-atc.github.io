@@ -1,0 +1,20 @@
+- name: Home
+  link: /
+
+- name: Who We Are
+  link: /who-we-are
+
+- name: Want to Join?
+  link: /join
+
+- name: Photo Gallery
+  link: https://www.facebook.com/pg/236ATC/photos/?tab=albums
+  target: _blank
+
+- name: Squadron News
+  link: https://www.facebook.com/pg/236ATC/posts/
+  target: _blank
+
+- name: Event Calendar
+  link: https://www.facebook.com/pg/236ATC/events/
+  target: _blank
