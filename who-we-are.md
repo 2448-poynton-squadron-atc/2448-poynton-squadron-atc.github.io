@@ -9,9 +9,6 @@ description: >-
   Are you up for fun, adventure, incredible experiences and making new friends? Are you looking for something to give you the edge in life?  Then welcome to the Royal Air Force Air Cadets.
 ---
 
-![236 Bollington Squadron Crest](/assets/images/crest.jpg){: .pull-right}
-
-
 ## Are you up for fun, adventure, incredible experiences and making new friends? Are you looking for something to give you the edge in life?  Then welcome to the Royal Air Force Air Cadets.
 
 Better known as the "Air Cadets", we’re a UK-wide cadet force with more than 50,000 members aged between 12 and 20 years.
@@ -24,6 +21,6 @@ Our aims are to:
 * Provide training which will be useful in the Services and civilian life
 * Encourage the spirit of adventure and develop qualities of leadership  and good citizenship
 
-236 Bollington Squadron parade every Monday and Thursday at 7pm at The Slaughter House, Shrigley Road, Bollington.
+{{ site.sqn_number }} {{ site.sqn_name }} Squadron parade every Monday and Thursday at 7pm at The Slaughter House, Shrigley Road, Bollington.
 
 And there’s one more important thing - it's a lot of fun!

@@ -30,7 +30,7 @@ We have high standards to maintain as we are a ‘military’ youth organisation
 
 All of our squadrons welcome personal visits by potential cadets (ideally accompanied by a parent or guardian), during one of their Parade Nights – these are held twice a week. Some squadrons recruit throughout the year, others have specific entry dates. Just come along and see if you like it – you don’t have to join, but at least check out what you might be missing.
 
-236 Squadron will discuss what they do, show you a video of Air Cadet activities and answer any questions you or your parents/guardians may have.
+{{ site.sqn_number }} Squadron will discuss what they do, show you a video of Air Cadet activities and answer any questions you or your parents/guardians may have.
 
 Don’t be shy about taking that first step – it may be the best thing you’ve ever done. Go for it!
 
