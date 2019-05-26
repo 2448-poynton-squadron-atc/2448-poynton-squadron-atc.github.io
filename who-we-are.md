@@ -4,6 +4,7 @@
 
 layout: basic
 title: Who We Are
+image: /assets/images/header-gliding.jpg
 description: >-
   Are you up for fun, adventure, incredible experiences and making new friends? Are you looking for something to give you the edge in life?  Then welcome to the Royal Air Force Air Cadets.
 ---

@@ -4,6 +4,7 @@
 
 layout: basic
 title: Our Volunteers
+image: /assets/images/header.jpg
 description: >-
   The Royal Air Force Air Cadets is staffed by volunteers, here are the people who run 236 Bollington Squadron Air Cadets.
 ---

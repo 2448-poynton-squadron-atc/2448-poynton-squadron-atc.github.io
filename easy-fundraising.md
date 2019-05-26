@@ -4,6 +4,7 @@
 
 layout: basic
 title: Easy Fundraising
+image: /assets/images/header.jpg
 description: >-
   So, are you ready to take the first step towards all the opportunities and benefits that the air cadets can offer you?
 ---

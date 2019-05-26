@@ -4,6 +4,7 @@
 
 layout: basic
 title: 236 Bollington Squadron Air Cadets
+image: /assets/images/header.jpg
 description: >-
   If you're a fan of aviation, action and adventure, love sports and getting to know people, then you're in the right place!
   236 Bollington Squadron Air Cadets parades every Monday and Thursday nights at 7pm.

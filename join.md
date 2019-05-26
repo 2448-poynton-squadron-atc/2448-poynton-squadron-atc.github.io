@@ -4,6 +4,7 @@
 
 layout: basic
 title: Join the Air Cadets
+image: /assets/images/header-tornado.jpg
 description: >-
   So, are you ready to take the first step towards all the opportunities and benefits that the air cadets can offer you?
 ---
