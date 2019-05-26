@@ -8,13 +8,16 @@
   link: /join
 
 - name: Photo Gallery
-  link: https://www.facebook.com/pg/{{ site.facebook }}/photos/?tab=albums
+  facebook: true
+  link: /photos/?tab=albums
   target: _blank
 
 - name: Squadron News
-  link: https://www.facebook.com/pg/{{ site.facebook }}/posts/
+  facebook: true
+  link: /posts/
   target: _blank
 
 - name: Event Calendar
-  link: https://www.facebook.com/pg/{{ site.facebook }}/events/
+  facebook: true
+  link: /events/
   target: _blank

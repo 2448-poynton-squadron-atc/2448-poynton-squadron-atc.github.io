@@ -148,7 +148,9 @@
                 <div class="container main-container">
     <ul class="nav navbar-nav row">
         {% for item in site.data.navigation %}
-        <li class="col-sm-2"><a class="{% if page.url == item.link %}active{% endif %}" href="{{ item.link }}" target="{{ item.target }}">{{ item.name }}</a></li>
+        <li class="col-sm-2">
+            <a class="{% if page.url == item.link %}active{% endif %}" href="{% if item.facebook %}https://www.facebook.com/pg/{{ site.facebook }}{% endif %}{{ item.link }}" target="{{ item.target }}">{{ item.name }}</a>
+        </li>
         {% endfor %}
     </ul>
             <div class="row">
